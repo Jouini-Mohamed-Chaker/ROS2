@@ -162,22 +162,6 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=$HOME/map.yaml
 
 Le package `MyBots` contient deux sous-packages : `my_bot` et `line_bot`. Pour construire et lancer ces packages, vous pouvez utiliser le script `build.sh`.
 
-### 📦 Packages nécessaires pour `my_bot`
-
-Pour installer les dépendances nécessaires pour le package `my_bot`, utilisez les commandes suivantes :
-
-```bash
-sudo apt update
-sudo apt install ros-humble-ament-cmake
-sudo apt install ros-humble-rclcpp
-sudo apt install ros-humble-sensor-msgs
-sudo apt install ros-humble-geometry-msgs
-sudo apt install ros-humble-robot-state-publisher
-sudo apt install ros-humble-rviz2
-sudo apt install libignition-transport11-dev
-```
-
-
 ### 🛠️ Construction et lancement
 
 1. **Rendre le script exécutable** :
@@ -192,6 +176,34 @@ chmod +x build.sh
 ./build.sh [nom_du_package]  # Remplacez [nom_du_package] par 'my_bot' ou 'line_bot'
 ```
 
+### 📦 Packages nécessaires pour `my_bot`
+
+Pour installer les dépendances nécessaires pour le package `my_bot`, utilisez les commandes suivantes :
+
+```bash
+sudo apt update
+sudo apt install ros-humble-ament-cmake
+sudo apt install ros-humble-rclcpp
+sudo apt install ros-humble-sensor-msgs
+sudo apt install ros-humble-geometry-msgs
+sudo apt install ros-humble-robot-state-publisher
+sudo apt install ros-humble-rviz2
+sudo apt install libignition-transport11-dev
+sudo apt install ros-humble-ros-ign-bridge
+```
+
+### 📦 Packages nécessaires pour `line_bot`
+
+Pour installer les dépendances nécessaires pour le package `line_bot`, utilisez les commandes suivantes :
+
+```bash
+sudo apt update
+sudo apt install ros-humble-ament-cmake
+sudo apt install ros-humble-rclcpp
+sudo apt install ros-humble-sensor-msgs
+sudo apt install ros-humble-geometry-msgs
+sudo apt install libignition-transport11-dev
+```
 
 ---
 
