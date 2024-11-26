@@ -2,10 +2,11 @@
 #include <ignition/msgs/laserscan.pb.h>
 #include <ignition/transport/Node.hh>
 
-
-std::string topic_pub = "/cmd_vel";   //publish to this topic
+std::string topic_pub = "/cmd_vel";   // Publish to this topic
+std::string topic_scan = "/scan";     // Publish scan data to this topic
 ignition::transport::Node node;
 auto pub = node.Advertise<ignition::msgs::Twist>(topic_pub);
+auto scan_pub = node.Advertise<ignition::msgs::LaserScan>(topic_scan);
 
 //////////////////////////////////////////////////
 /// \brief Function called each time a topic update is received.
@@ -22,7 +23,7 @@ void cb(const ignition::msgs::LaserScan &_msg)
       break;
     }
   }
-  if (allMore) //if all bigger than one
+  if (allMore) // If all ranges are greater than one
   {
     data.mutable_linear()->set_x(0.5);
     data.mutable_angular()->set_z(0.0);
@@ -33,12 +34,13 @@ void cb(const ignition::msgs::LaserScan &_msg)
     data.mutable_angular()->set_z(0.5);
   }
   pub.Publish(data);
+  scan_pub.Publish(_msg); // Publish the scan data
 }
 
 //////////////////////////////////////////////////
 int main(int argc, char **argv)
 {
-  std::string topic_sub = "/lidar";   // subscribe to this topic
+  std::string topic_sub = "/lidar";   // Subscribe to this topic
   // Subscribe to a topic by registering a callback.
   if (!node.Subscribe(topic_sub, cb))
   {

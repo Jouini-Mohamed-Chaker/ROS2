@@ -1,4 +1,0 @@
-source;share/line_bot/local_setup.bash
-source;share/line_bot/local_setup.dsv
-source;share/line_bot/local_setup.sh
-source;share/line_bot/local_setup.zsh

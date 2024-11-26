@@ -90,8 +90,7 @@ colcon build --symlink-install
 
 ---
 
-## 📝 Fiches pratiques
-
+## 📝 TurtleBot3 package
 ### 📂 Chaque fois qu'on ouvre un nouveau terminal il fault inclure :
 ```bash
 source install/setup.bash
@@ -159,4 +158,41 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=$HOME/map.yaml
 
 ---
 
-Bonne chance avec votre configuration de ROS 2 Humble Hawksbill et TurtleBot3 ! 🚀
+## 🚀 MyBots Package
+
+Le package `MyBots` contient deux sous-packages : `my_bot` et `line_bot`. Pour construire et lancer ces packages, vous pouvez utiliser le script `build.sh`.
+
+### 📦 Packages nécessaires pour `my_bot`
+
+Pour installer les dépendances nécessaires pour le package `my_bot`, utilisez les commandes suivantes :
+
+```bash
+sudo apt update
+sudo apt install ros-humble-ament-cmake
+sudo apt install ros-humble-rclcpp
+sudo apt install ros-humble-sensor-msgs
+sudo apt install ros-humble-geometry-msgs
+sudo apt install ros-humble-robot-state-publisher
+sudo apt install ros-humble-rviz2
+sudo apt install libignition-transport11-dev
+```
+
+
+### 🛠️ Construction et lancement
+
+1. **Rendre le script exécutable** :
+
+```bash
+chmod +x build.sh
+```
+
+2. **Construire et lancer un package** :
+
+```bash
+./build.sh [nom_du_package]  # Remplacez [nom_du_package] par 'my_bot' ou 'line_bot'
+```
+
+
+---
+
+Bonne chance avec votre configuration de ROS 2 Humble Hawksbill, TurtleBot3 et MyBots ! 🚀

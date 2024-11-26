@@ -1,0 +1,10 @@
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/uninstall.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/my_bot_uninstall.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/lidar_node.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/test.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/edit_cache.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/rebuild_cache.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/list_install_components.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/install.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/install/local.dir
+/home/chaker/turtlebot3_ws/MyBots/build/my_bot/CMakeFiles/install/strip.dir

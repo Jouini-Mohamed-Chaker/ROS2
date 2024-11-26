@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+79873265beead5c27b5590963f53b806 CMakeFiles/my_bot_uninstall
