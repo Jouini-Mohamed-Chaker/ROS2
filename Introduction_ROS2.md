@@ -51,7 +51,7 @@ Un **nœud** est un processus autonome qui accomplit une tâche spécifique dans
 
 ### Relations entre plusieurs nœuds
 
-![Nodes](/assets/Nodes-TopicandService.gif)
+![Nodes](https://docs.ros.org/en/humble/_images/Nodes-TopicandService.gif)
 
 ---
 
