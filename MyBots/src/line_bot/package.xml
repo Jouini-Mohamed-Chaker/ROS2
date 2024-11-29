@@ -3,7 +3,7 @@
   <name>line_bot</name>
   <version>0.0.1</version>
   <description>Line following robot package</description>
-  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <maintainer email="JouiniMohamedChaker@proton.me">Mohamed-Chaker-Jouini</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
