@@ -122,3 +122,5 @@ Les **paramètres** permettent de configurer les nœuds de manière flexible san
 
 ## Conclusion
 ROS 2 est un outil puissant et modulable pour le développement d’applications robotiques. Grâce à ses mécanismes robustes et flexibles, il permet de créer des systèmes scalables, fiables, et adaptés à des environnements variés.
+
+## Pour plus d'information Consulter [la documentation officielle](https://docs.ros.org/en/humble/index.html)
