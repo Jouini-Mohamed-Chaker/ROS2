@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "my_bot")
 set(my_bot_VERSION "0.0.1")
-set(my_bot_MAINTAINER "Your Name <your_email@example.com>")
+set(my_bot_MAINTAINER "Mohamed-Chaker-Jouini <JouiniMohamedChaker@proton.me>")
 set(my_bot_BUILD_DEPENDS "rclcpp" "sensor_msgs" "geometry_msgs" "robot_state_publisher" "rviz2" "ignition-transport11")
 set(my_bot_BUILDTOOL_DEPENDS "ament_cmake")
 set(my_bot_BUILD_EXPORT_DEPENDS "rclcpp" "sensor_msgs" "geometry_msgs" "robot_state_publisher" "rviz2" "ignition-transport11")

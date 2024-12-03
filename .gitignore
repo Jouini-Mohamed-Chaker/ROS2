@@ -1,1 +1,7 @@
 .vscode/
+TurtleBot3/build/
+TurtleBot3/install/
+TurtleBot3/log/
+MyBots/build/
+MyBots/install/
+MyBots/log/

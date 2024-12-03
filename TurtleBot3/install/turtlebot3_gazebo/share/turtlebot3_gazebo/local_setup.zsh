@@ -1,1 +1,1 @@
-/home/chaker/turtlebot3_ws/build/turtlebot3_gazebo/ament_cmake_environment_hooks/local_setup.zsh
+/home/chaker/turtlebot3_ws/TurtleBot3/build/turtlebot3_gazebo/ament_cmake_environment_hooks/local_setup.zsh
